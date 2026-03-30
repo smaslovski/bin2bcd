@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Mon Mar 30 22:05:52 2026
+[*]
+[dumpfile] "./waveforms.ghw"
+[dumpfile_mtime] "Mon Mar 30 21:57:05 2026"
+[dumpfile_size] 50337681
+[savefile] "./waveforms.gtkw"
+[timestart] 1969957200000
+[size] 2048 1454
+[pos] -1 -1
+*-24.974941 1970085000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_bin2bcd.
+[treeopen] top.tb_bin2bcd.uut.
+[sst_width] 276
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 455
+@28
+top.tb_bin2bcd.clk
+top.tb_bin2bcd.rst
+top.tb_bin2bcd.i_valid
+top.tb_bin2bcd.o_ready
+@24
+#{top.tb_bin2bcd.i_bin[15:0]} top.tb_bin2bcd.i_bin[15] top.tb_bin2bcd.i_bin[14] top.tb_bin2bcd.i_bin[13] top.tb_bin2bcd.i_bin[12] top.tb_bin2bcd.i_bin[11] top.tb_bin2bcd.i_bin[10] top.tb_bin2bcd.i_bin[9] top.tb_bin2bcd.i_bin[8] top.tb_bin2bcd.i_bin[7] top.tb_bin2bcd.i_bin[6] top.tb_bin2bcd.i_bin[5] top.tb_bin2bcd.i_bin[4] top.tb_bin2bcd.i_bin[3] top.tb_bin2bcd.i_bin[2] top.tb_bin2bcd.i_bin[1] top.tb_bin2bcd.i_bin[0]
+@28
+top.tb_bin2bcd.uut.load_acc
+#{top.tb_bin2bcd.uut.acc[35:0]} top.tb_bin2bcd.uut.acc[35] top.tb_bin2bcd.uut.acc[34] top.tb_bin2bcd.uut.acc[33] top.tb_bin2bcd.uut.acc[32] top.tb_bin2bcd.uut.acc[31] top.tb_bin2bcd.uut.acc[30] top.tb_bin2bcd.uut.acc[29] top.tb_bin2bcd.uut.acc[28] top.tb_bin2bcd.uut.acc[27] top.tb_bin2bcd.uut.acc[26] top.tb_bin2bcd.uut.acc[25] top.tb_bin2bcd.uut.acc[24] top.tb_bin2bcd.uut.acc[23] top.tb_bin2bcd.uut.acc[22] top.tb_bin2bcd.uut.acc[21] top.tb_bin2bcd.uut.acc[20] top.tb_bin2bcd.uut.acc[19] top.tb_bin2bcd.uut.acc[18] top.tb_bin2bcd.uut.acc[17] top.tb_bin2bcd.uut.acc[16] top.tb_bin2bcd.uut.acc[15] top.tb_bin2bcd.uut.acc[14] top.tb_bin2bcd.uut.acc[13] top.tb_bin2bcd.uut.acc[12] top.tb_bin2bcd.uut.acc[11] top.tb_bin2bcd.uut.acc[10] top.tb_bin2bcd.uut.acc[9] top.tb_bin2bcd.uut.acc[8] top.tb_bin2bcd.uut.acc[7] top.tb_bin2bcd.uut.acc[6] top.tb_bin2bcd.uut.acc[5] top.tb_bin2bcd.uut.acc[4] top.tb_bin2bcd.uut.acc[3] top.tb_bin2bcd.uut.acc[2] top.tb_bin2bcd.uut.acc[1] top.tb_bin2bcd.uut.acc[0]
+top.tb_bin2bcd.i_ready
+top.tb_bin2bcd.o_valid
+@23
+#{top.tb_bin2bcd.o_bcd[19:0]} top.tb_bin2bcd.o_bcd[19] top.tb_bin2bcd.o_bcd[18] top.tb_bin2bcd.o_bcd[17] top.tb_bin2bcd.o_bcd[16] top.tb_bin2bcd.o_bcd[15] top.tb_bin2bcd.o_bcd[14] top.tb_bin2bcd.o_bcd[13] top.tb_bin2bcd.o_bcd[12] top.tb_bin2bcd.o_bcd[11] top.tb_bin2bcd.o_bcd[10] top.tb_bin2bcd.o_bcd[9] top.tb_bin2bcd.o_bcd[8] top.tb_bin2bcd.o_bcd[7] top.tb_bin2bcd.o_bcd[6] top.tb_bin2bcd.o_bcd[5] top.tb_bin2bcd.o_bcd[4] top.tb_bin2bcd.o_bcd[3] top.tb_bin2bcd.o_bcd[2] top.tb_bin2bcd.o_bcd[1] top.tb_bin2bcd.o_bcd[0]
+@420
+top.tb_bin2bcd.uut.conv_state
+top.tb_bin2bcd.cycle_counter
+top.tb_bin2bcd.finish
+[pattern_trace] 1
+[pattern_trace] 0

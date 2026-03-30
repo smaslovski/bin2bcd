@@ -1,0 +1,27 @@
+SRC=rtl/bin2bcd.vhd tb/tb.vhd
+TB=tb_bin2bcd
+OPTS=--std=93 --work=work
+WAVE=nvc_waveforms.vcd
+SAVE=nvc_waveforms.gtkw
+GTKW=DISPLAY=:0 gtkwave
+LOG=out.log
+
+$(TB): $(SRC)
+	mkdir -p work
+	for f in $(SRC); do nvc $(OPTS) -a $$f; done
+	nvc $(OPTS) -e $@
+
+run: $(TB)
+	nvc $(OPTS) -r $(TB)
+
+$(WAVE): $(TB)
+	nvc $(OPTS) -r $(TB) --format=vcd --wave=$@ | tee $(LOG) | tail -n5
+
+wave: $(WAVE)
+	if [ -f $(SAVE) ]; then $(GTKW) $(SAVE); else $(GTKW) $<; fi
+
+clean:
+	rm -f *.o $(TB) $(WAVE) $(LOG)
+	rm -rf work
+
+.PHONY: clean
