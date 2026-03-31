@@ -15,7 +15,7 @@ run: $(TB)
 	ghdl -r $(OPTS) $(TB)
 
 $(WAVE): $(TB)
-	./$(TB) --wave=$@ | tee $(LOG) | tail -n5
+	ghdl -r $(OPTS) $(TB) --wave=$@ | tee $(LOG) | tail -n5
 
 wave: $(WAVE)
 	if [ -f $(SAVE) ]; then $(GTKW) $(SAVE); else $(GTKW) $<; fi
