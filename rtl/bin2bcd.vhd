@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
--- Double-dabble BIN2BCD converter with a read/valid handshake interface.
+-- Double-dabble BIN2BCD converter with a ready/valid handshake interface.
 -- Author: Stanislav Maslovski <stanislav.maslovski@gmail.com>
 -- This code is in public domain, use freely. Standard compliance: VHDL 93.
 -------------------------------------------------------------------------------
